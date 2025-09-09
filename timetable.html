@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание занятий</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .schedule-table {
+            border: 2px solid #000;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .schedule-table td, .schedule-table th {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+            vertical-align: top;
+        }
+        .schedule-table th {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+        .lesson-info {
+            text-align: left;
+        }
+        .lesson-range {
+            font-weight: bold;
+            color: #333;
+        }
+        .lesson-name {
+            font-weight: bold;
+        }
+        .lesson-type {
+            font-style: italic;
+            color: #666;
+        }
+        .lesson-room {
+            color: #444;
+        }
+        .lesson-group {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Расписание занятий</h1>
+    
+    <table class="schedule-table">
+        <tbody>
+            <tr>
+                <th>Время</th>
+                <th>&nbsp;</th>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+            </tr>
+            <tr>
+                <td rowspan="2">09:20 - 10:55<br>1</td>
+                <td>I</td>
+                <td rowspan="2" class="lesson-info">
+                   
+                    <span class="lesson-name">Системы электрооборудования автомобилей и тракторов</span><br>
+                    <span class="lesson-type">Лекция</span><br>
+                    <span class="lesson-room">М-602 (Корпус М)</span><br>
+                    <span class="lesson-group">ЭЛ-16-22</span>
+                </td>
+                <td rowspan="2"></td>
+                <td></td>
+                <td rowspan="2" class="lesson-info">
+                    
+                    <span class="lesson-name">Электрооборудование автономных объектов</span><br>
+                    <span class="lesson-type">Практическое занятие</span><br>
+                    <span class="lesson-room">А-230 (Корпус А)</span><br>
+                    <span class="lesson-group">ЭЛэ-10-22</span>
+                </td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>II</td>
+                <td class="lesson-info">
+                    <span class="lesson-name">КП по электронным устройствам автономных объектов</span><br>
+                    <span class="lesson-type">Консультация</span><br>
+                    <span class="lesson-room">М-603 (Корпус М)</span><br>
+                    <span class="lesson-group">ЭЛ-16-22</span>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">13:45 - 15:20<br>3</td>
+                <td>I</td>
+                <td rowspan="2" class="lesson-info">
+                    
+                    <span class="lesson-name">Системы электрооборудования автомобилей и тракторов</span><br>
+                    <span class="lesson-type">Лабораторная работа</span><br>
+                    <span class="lesson-room">М-603 (Корпус М)</span><br>
+                    <span class="lesson-group">ЭЛ-16-22</span>
+                </td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>II</td>
+            </tr>
+            <tr>
+                <td rowspan="2">15:35 - 17:10<br>4</td>
+                <td>I</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2" class="lesson-info">
+                    
+                    <span class="lesson-name">Электрооборудование автономных объектов</span><br>
+                    <span class="lesson-type">Лекция</span><br>
+                    <span class="lesson-room">А-230 (Корпус А)</span><br>
+                    <span class="lesson-group">ЭЛэ-10-22</span>
+                </td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>II</td>
+            </tr>
+            <tr>
+                <td rowspan="2">17:20 - 18:50<br>5</td>
+                <td>I</td>
+                <td rowspan="2"></td>
+                <td class="lesson-info">
+                    <span class="lesson-name">КП по электронным устройствам автономных объектов</span><br>
+                    <span class="lesson-type">Консультация</span><br>
+                    <span class="lesson-room">М-619 (Корпус М)</span><br>
+                    <span class="lesson-group">ЭЛ-13-22</span>
+                </td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>II</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
